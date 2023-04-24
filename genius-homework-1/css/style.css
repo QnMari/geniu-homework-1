@@ -1,0 +1,179 @@
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v30-latin-300.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-300.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/roboto-v30-latin-500.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-500.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/roboto-v30-latin-700.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/roboto-v30-latin-900.woff2') format('woff2'),
+        url('../fonts/roboto-v30-latin-900.woff') format('woff');
+}
+:root {
+    --color-primary-liht:#FFFFFF;
+    --color-primary-blu:#2B7FFF;
+    --color-primary-dark:#011C44;
+    --secondary-colors-yelow:#FFD02B;
+    --secondary-colors-dark:#011F4A;
+    --secondary-light-gray:#747272;
+    --secondary-dark-gray:#4A4A4A;
+}
+                                        /* BASE */
+body {
+    background-color: rgba(94, 100, 114, 0.231);
+    color: var(--color-primary-dark);
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.15;
+}
+
+h2{
+font-family: Play, sans-serif;
+font-size: 64px;
+font-weight: bold;
+font-weight: 700;
+line-height: 74px;
+}
+                                          /* link section*/
+.link {
+    color: var(--color-primary-dark);
+    text-decoration: none;
+    line-height: 1.17;
+}
+.link:hover {
+    color: var(--color-primary-blu);
+    font-weight: 700;
+}
+
+.adress-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.link-footer {
+    color: var(--color-primary-liht);
+    text-decoration: none;
+    line-height: 1.17;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.link-footer:hover {
+    color: var(--color-primary-blu);
+    font-weight: 700;
+}
+                                            /*section section*/
+ul {
+    list-style-type: none;
+}
+
+.clinic{
+    color: var(--color-primary-dark);
+    line-height: 1.17;
+}  
+
+.hero-title {
+    color: var(--color-primary-blu);
+    font-family: Play, sans-serif;
+    font-size: 140px;
+    line-height: 0.81;
+    font-weight: 700;
+
+}
+                                            /*button section*/
+.button {
+    color: var(--color-primary-liht);
+    background-color: var(--color-primary-blu);
+    border: 2px solid var(--color-primary-blu);
+    border-radius: 32px;
+    line-height: 21px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.button:hover {
+ color: var(--color-primary-dark);
+ background-color: #FFFFFF;   
+}
+
+                                            /*text option*/
+.call-as {
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.accent{
+color: var(--color-primary-blu);
+}
+
+.accent-text {
+font-weight: bold;
+}
+
+.info-text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 38px;
+}
+
+.advantage-text {
+    color: #000000;
+    line-height: 24px;
+    text-align: center;
+}
+
+.product-text
+{
+color: var(--color-primary-liht);
+font-size: 22px;
+line-height: 26px;
+}
+
+.modal-wind {
+color: #FFFFFF;
+font-weight: 600;
+font-size: 22px;
+line-height: 26px;
+}
+
+.adress-copyrighte {
+color: #747272;
+font-size: 13px;
+line-height: 15px;
+}
