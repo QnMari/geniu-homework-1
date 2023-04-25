@@ -1,4 +1,12 @@
 @font-face {
+  font-display: swap;
+  font-family: 'Play';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/play-v17-latin-regular.woff2') format('woff2'),
+       url('../fonts/play-v17-latin-regular.woff') format('woff');
+}
+@font-face {
     font-display: swap;
     font-family: 'Roboto';
     font-style: normal;
